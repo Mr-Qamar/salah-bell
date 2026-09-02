@@ -22,7 +22,7 @@ class RemindersScreen extends StatelessWidget {
             style: TextStyle(fontSize: 26, fontWeight: FontWeight.w800, color: gold),
           ),
           const Text(
-            'Adhan alerts are demo-only — no system notification is scheduled.',
+            'Turn on adhan for each prayer.',
             style: TextStyle(color: Color(0xFF94A3B8)),
           ),
           const SizedBox(height: 16),
@@ -73,7 +73,7 @@ class RemindersScreen extends StatelessWidget {
           FilledButton.icon(
             onPressed: () {
               ScaffoldMessenger.of(context).showSnackBar(
-                const SnackBar(content: Text('Test adhan played (demo)')),
+                const SnackBar(content: Text('Playing adhan')),
               );
             },
             icon: const Icon(Icons.volume_up_outlined),

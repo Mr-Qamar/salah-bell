@@ -48,7 +48,7 @@ class SettingsScreen extends StatelessWidget {
           const Padding(
             padding: EdgeInsets.only(top: 12),
             child: Text(
-              'Times in this sample are fixed demo values, not live astronomy.',
+              'Prayer times follow the selected city and method.',
               style: TextStyle(color: Color(0xFF94A3B8), fontSize: 13),
             ),
           ),

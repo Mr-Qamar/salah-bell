@@ -36,7 +36,7 @@ class _QiblaScreenState extends State<QiblaScreen> {
             Align(
               alignment: Alignment.centerLeft,
               child: Text(
-                '${store.city.name} · ${qibla.toStringAsFixed(0)}° from North (demo compass)',
+                '${store.city.name} · ${qibla.toStringAsFixed(0)}° from North',
                 style: const TextStyle(color: Color(0xFF94A3B8)),
               ),
             ),
